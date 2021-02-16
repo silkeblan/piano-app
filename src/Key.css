@@ -1,0 +1,29 @@
+.Key {
+  background: white;
+  height: 200px;
+  width: 50px;
+  border: 2px solid black;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.Key.flat {
+  background: black;
+  color: white;
+  position: relative;
+  width: 30px;
+  height: 110px;
+  margin-left: -18px;
+  margin-right: -18px;
+  z-index: 2;
+  border: 3px solid black;
+}
+
+.Key:hover {
+  background: rgb(255, 243, 131);
+  cursor: pointer;
+}
+
+.Key.pressed {
+  background: rgb(116, 222, 255);
+}

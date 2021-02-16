@@ -1,0 +1,10 @@
+.Piano {
+  display: block;
+  margin: 0 auto;
+}
+
+.Piano .piano-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
