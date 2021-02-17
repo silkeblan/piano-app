@@ -22,7 +22,6 @@ export default function Key(props) {
     }
   });
 
-
   let keyClassName = "Key";
   if (props.note.length > 2) {
     keyClassName += " flat";
