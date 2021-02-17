@@ -1,9 +1,24 @@
 .App {
   margin: 0 auto;
+  max-width: 450px;
+  color: rgb(253, 247, 226);
 }
 
 .App h1 {
   text-align: center;
   padding: 15px;
-  color: rgb(253, 247, 226);
+}
+
+.App footer {
+  font-size: 11px;
+  padding: 10px;
+}
+
+.App a {
+  color: rgb(255, 243, 131);
+  text-decoration: none;
+}
+
+.App a:hover {
+  text-decoration: underline;
 }
